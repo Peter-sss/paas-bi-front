@@ -1,7 +1,6 @@
 import Cookies from 'js-cookie'
 
-const TokenKey = 'mob-bi'
-// const domain = 'mob.com' // Cookies设置的对此域名可见
+const TokenKey = 'bi'
 const domain = ''
 
 export function getToken () {
