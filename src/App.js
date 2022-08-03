@@ -5,6 +5,7 @@ import HeaderCustom from './components/HeaderCustom';
 import { Layout } from 'antd';
 import { ThemePicker } from './components/widget';
 import { connectAlita } from 'redux-alita';
+import "./utils/rem";
 
 const { Content, Footer } = Layout;
 
