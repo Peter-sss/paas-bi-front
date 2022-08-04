@@ -109,6 +109,8 @@ module.exports = function (webpackEnv) {
             // Adds PostCSS Normalize as the reset css with default options,
             // so that it honors browserslist config in package.json
             // which in turn let's users customize the target behavior as per their needs.
+
+
             require('postcss-px-to-viewport')({
               viewportWidth: 1440, // (Number) The width of the viewport.
               viewportHeight: 810, // (Number) The height of the viewport.
@@ -118,6 +120,11 @@ module.exports = function (webpackEnv) {
               minPixelValue: 1, // (Number) Set the minimum pixel value to replace.
               mediaQuery: false // (Boolean) Allow px to be converted in media queries.
             }),
+            // require('postcss-pxtorem')({
+            //   rootValue : 16,
+            //   selectorBlackList  : [], //过滤
+            //   propList   : ['*'],
+            // }),
             postcssNormalize(),
           ],
           sourceMap: isEnvProduction && shouldUseSourceMap,
