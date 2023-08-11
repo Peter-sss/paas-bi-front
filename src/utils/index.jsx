@@ -96,7 +96,7 @@ export const resizeDiv = (el, cb) => {
   if (el) {
     iframe.contentWindow.onresize = function () {
       clearTimeout(timer);
-      timer = setTimeout(sizeChange, 20);
+      timer = setTimeout(sizeChange, 120);
     };
   }
 }
