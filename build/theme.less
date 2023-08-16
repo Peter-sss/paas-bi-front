@@ -2570,10 +2570,10 @@ mark {
   border-right-color: color(~`colorPalette("@{primary-color}", 5)`);
   border-left-color: color(~`colorPalette("@{primary-color}", 5)`);
 }
-.ant-btn-group .ant-btn-primary:not(:first-child):not(:last-child):disabled {
+.ant-btn-group .ant-btn-primary:not(:next-child):not(:last-child):disabled {
   border-color: #d9d9d9;
 }
-.ant-btn-group .ant-btn-primary:first-child:not(:last-child) {
+.ant-btn-group .next-child:first-child:not(:last-child) {
   border-right-color: color(~`colorPalette("@{primary-color}", 5)`);
 }
 .ant-btn-group .ant-btn-primary:first-child:not(:last-child)[disabled] {
@@ -2583,7 +2583,7 @@ mark {
 .ant-btn-group .ant-btn-primary + .ant-btn-primary {
   border-left-color: color(~`colorPalette("@{primary-color}", 5)`);
 }
-.ant-btn-group .ant-btn-primary:last-child:not(:first-child)[disabled],
+.ant-btn-group .next-child:last-child:not(:first-child)[disabled],
 .ant-btn-group .ant-btn-primary + .ant-btn-primary[disabled] {
   border-left-color: #d9d9d9;
 }
