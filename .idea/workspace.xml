@@ -4,20 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43985e65-d2f3-4bc2-b86d-749d92115a3c" name="变更" comment="" />
+    <list default="true" id="478f8dfe-e133-4752-a7d6-96ce9670b052" name="变更" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master-fetch" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
@@ -29,12 +27,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="test" />
-                    <option name="lastUsedInstant" value="1681092247" />
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1686021093" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1681092133" />
+                    <option name="branchName" value="master-fetch" />
+                    <option name="lastUsedInstant" value="1658460349" />
                   </RecentBranch>
                 </list>
               </option>
@@ -45,12 +43,15 @@
       </RecentBranches>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2AsezT5HpSUCVNEyb70b73E8mrd" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="ProjectId" id="2Ask94NsghfgOAzFUkX47V8whCY" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
   </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -63,49 +64,76 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Peter/Desktop/reactTest/paas-bi-front&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master-fetch&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Peter/Desktop/vueTest/go-view&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;prettier.import.notification.dismissed&quot;: &quot;true&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\Peter\\AppData\\Roaming\\npm\\node_modules\\prettier&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\Peter\\Desktop\\vueTest\\go-view\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Peter\\Desktop\\vueTest\\go-view\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+    ]
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="43985e65-d2f3-4bc2-b86d-749d92115a3c" name="变更" comment="" />
-      <created>1655802986057</created>
+      <changelist id="478f8dfe-e133-4752-a7d6-96ce9670b052" name="变更" comment="" />
+      <created>1655805525917</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1655802986057</updated>
-      <workItem from="1655802995459" duration="751000" />
-      <workItem from="1659518634845" duration="13350000" />
-      <workItem from="1659600493254" duration="12000" />
-      <workItem from="1668497835658" duration="652000" />
-      <workItem from="1678329950726" duration="1283000" />
-      <workItem from="1681091961027" duration="295000" />
-      <workItem from="1683857174405" duration="2116000" />
-      <workItem from="1684130677321" duration="874000" />
-      <workItem from="1691732819841" duration="882000" />
-      <workItem from="1691734021203" duration="25000" />
-      <workItem from="1692153168247" duration="180000" />
+      <updated>1655805525917</updated>
+      <workItem from="1655805527302" duration="352000" />
+      <workItem from="1655865795568" duration="1543000" />
+      <workItem from="1658394742996" duration="3862000" />
+      <workItem from="1658458241258" duration="1798000" />
+      <workItem from="1658460398854" duration="7929000" />
+      <workItem from="1658726348820" duration="57000" />
+      <workItem from="1659323724637" duration="2076000" />
+      <workItem from="1659584293821" duration="593000" />
+      <workItem from="1663207259183" duration="5142000" />
+      <workItem from="1678350635129" duration="741000" />
+      <workItem from="1678357121597" duration="18000" />
+      <workItem from="1683881686084" duration="4120000" />
+      <workItem from="1684140559468" duration="545000" />
+      <workItem from="1684294308555" duration="672000" />
+      <workItem from="1685525841173" duration="17000" />
+      <workItem from="1685954260318" duration="204000" />
+      <workItem from="1685954490993" duration="31000" />
+      <workItem from="1685954542255" duration="60000" />
+      <workItem from="1685954633795" duration="1007000" />
+      <workItem from="1685956645298" duration="3752000" />
+      <workItem from="1686021079281" duration="1978000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ID_ORDER">
+    <option name="exactExcludedFiles">
       <list>
-        <option value="Default.Root" />
-        <option value="Default.Author" />
-        <option value="Default.Date" />
-        <option value="Default.Subject" />
+        <option value="$PROJECT_DIR$/src/store/modules/langStore/langStore.d.ts" />
+        <option value="$PROJECT_DIR$/src/store/modules/designStore/designStore.d.ts" />
+        <option value="$PROJECT_DIR$/src/store/modules/settingStore/settingStore.d.ts" />
+        <option value="$PROJECT_DIR$/src/store/modules/packagesStore/packagesStore.d.ts" />
+        <option value="$PROJECT_DIR$/src/store/modules/chartEditStore/chartEditStore.d.ts" />
+        <option value="$PROJECT_DIR$/src/store/modules/chartLayoutStore/chartLayoutStore.d.ts" />
+        <option value="$PROJECT_DIR$/src/store/modules/chartHistoryStore/chartHistoryStore.d.ts" />
+        <option value="$PROJECT_DIR$/src/views/chart/hooks/useContextMenu.hook.d.ts" />
+        <option value="$PROJECT_DIR$/src/views/chart/ContentEdit/components/EditTools/index.d.ts" />
+        <option value="$PROJECT_DIR$/src/packages/index.d.ts" />
+        <option value="$PROJECT_DIR$/src/packages/components/Charts/index.d.ts" />
+        <option value="$PROJECT_DIR$/src/packages/components/Tables/index.d.ts" />
+        <option value="$PROJECT_DIR$/src/packages/components/Decorates/index.d.ts" />
+        <option value="$PROJECT_DIR$/src/packages/components/Informations/index.d.ts" />
+        <option value="$PROJECT_DIR$/src/components/GoSystemSet/index.d.ts" />
       </list>
     </option>
   </component>
@@ -120,15 +148,8 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/config/webpackDevServer.config.js</url>
-          <line>10</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

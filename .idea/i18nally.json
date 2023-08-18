@@ -1,0 +1,48 @@
+{
+  "version" : "1.2",
+  "profiles" : [ {
+    "id" : "1f189685-fbb6-4df6-b7a5-dd122928c858",
+    "name" : "Vue-i18n",
+    "keyNamingPattern" : "CAMEL_CASE_PATTERN",
+    "sink" : {
+      "id" : "7b680957-d03d-48b1-ac18-9d50f7ab0d37",
+      "type" : "namespaced",
+      "translationsDirectory" : "$PROJECT_DIR$/src/i18n",
+      "fileType" : "javascript",
+      "defaultLocale" : "en",
+      "namespaces" : [ "index", "login", "project" ],
+      "outputFilenameTemplate" : "%locale%/%namespace%.ts",
+      "nestingType" : "DISABLED",
+      "placeholderFormatterName" : "ICU"
+    },
+    "sources" : [ {
+      "id" : "9703688e-de98-480a-97f5-a618cffa42ab",
+      "type" : "js",
+      "scopeName" : "项目文件",
+      "scopePattern" : "",
+      "defaultReplacementTemplate" : "$t('%key%', %map%)",
+      "recognizedReplacementTemplates" : [ ],
+      "skipDefaultNamespace" : false
+    }, {
+      "id" : "9f34a294-a0e6-4bcf-a3ae-152bffbe5eeb",
+      "type" : "htmlvue",
+      "scopeName" : "项目文件",
+      "scopePattern" : "",
+      "defaultReplacementTemplate" : "$t('%key%', %map%)",
+      "attributeReplacementTemplate" : "",
+      "inlineTagsReplacementTemplate" : "",
+      "recognizedReplacementTemplates" : [ ],
+      "inlineTagNames" : [ ],
+      "translatableAttributeNames" : [ "title", "alt", "placeholder", "label", "aria-label", "v-text", "v-html" ],
+      "skipDefaultNamespace" : false
+    } ]
+  } ],
+  "ignores" : {
+    "valuesInProject" : [ "use strict" ],
+    "valuesInFile" : { },
+    "filesInProject" : [ ],
+    "unignoredFunctionNames" : [ ],
+    "unignoredFunctionArguments" : { },
+    "ignoredArrayKeys" : [ "class", "selector", "template", "middleware", "layout", "el", "component", "type", "name", "id", "key", "sql", "query", "dateFormat", "date", "condition" ]
+  }
+}
