@@ -14,8 +14,8 @@ const qianKunStart = (list) => {
     ]
   })
   start({
-    prefetch: true,
-    singular: true
+    // prefetch: true,
+    // singular: true
   })
 }
 
